@@ -1,0 +1,109 @@
+16:05:47.692 request:
+1 > POST https://angular-conduit-node.herokuapp.com/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 91
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+{"user":{"email":"alexisro123@gmail.com","password":"fish121723","username":"alexisro991"}}
+
+16:05:48.425 response time in milliseconds: 731.16
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 282
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 29 Sep 2022 22:05:48 GMT
+1 < Etag: W/"11a-IXtz4R98Xe8JuFng0FeFxA"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"username":"alexisro991","email":"alexisro123@gmail.com","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzYxNmJiNjk1YWU3MDAxNzM0ZjBmZCIsInVzZXJuYW1lIjoiYWxleGlzcm85OTEiLCJleHAiOjE2Njk2NzMxNDgsImlhdCI6MTY2NDQ4OTE0OH0.kQlJc3gdljnPMpZQzl7JQoYVgWo1dDQTBbSizGnHc70"}}
+
+ken."}}
+nGBs_rM"}}
+
+e":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false}}
+
+gEw"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}
+
+17:24:16.763 status code was: 500, expected: 200, response time: 682, url: https://angular-conduit-node.herokuapp.com/api/profiles/username/follow, response: {"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}
+alexis","email":"alexis@gmail.com","password":"fish123"}
+
+01:41:51.897 response time in milliseconds: 463.55
+1 < 401
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 68
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 28 Sep 2022 07:41:52 GMT
+1 < Etag: W/"44-xgUmKaWpyk5R2+OqJQhnUg"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"errors":{"message":"No authorization token was found","error":{}}}
+
+01:41:51.899 status code was: 401, expected: 500, response time: 464, url: https://angular-conduit-node.herokuapp.com/api/profiles/username/follow, response: {"errors":{"message":"No authorization token was found","error":{}}}
+
+
+01:40:56.323 status code was: 500, expected: 401, response time: 462, url: https://angular-conduit-node.herokuapp.com/api/profiles/username/follow, response: {"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}
+01:40:56.342 request:
+1 > POST https://angular-conduit-node.herokuapp.com/api/profiles/username/follow
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzNkZmM2Nzk1Y2M4MDAxNzA5MTc4NSIsInVzZXJuYW1lIjoiYWxleGlzIiwiZXhwIjoxNjY5NTI4NzkyLCJpYXQiOjE2NjQzNDQ3OTJ9.fxa5Qw3je1AyWg42pfpm_Hh2l43touy2PEMTocU9RLU
+1 > Connection: Keep-Alive
+1 > Content-Length: 8
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+squirtle
+
+01:40:56.804 response time in milliseconds: 460.04
+1 < 500
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 143
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 28 Sep 2022 07:40:56 GMT
+1 < Etag: W/"8f-bSpilbkjm1kFOSPHXBzgEw"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}
+
+01:40:56.805 status code was: 500, expected: 401, response time: 460, url: https://angular-conduit-node.herokuapp.com/api/profiles/username/follow, response: {"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}
+01:40:56.817 request:
+1 > POST https://angular-conduit-node.herokuapp.com/api/profiles/username/follow
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzNkZmM2Nzk1Y2M4MDAxNzA5MTc4NSIsInVzZXJuYW1lIjoiYWxleGlzIiwiZXhwIjoxNjY5NTI4NzkyLCJpYXQiOjE2NjQzNDQ3OTJ9.fxa5Qw3je1AyWg42pfpm_Hh2l43touy2PEMTocU9RLU
+1 > Connection: Keep-Alive
+1 > Content-Length: 7
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+123.123
+
+01:40:57.285 response time in milliseconds: 468.07
+1 < 500
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 143
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 28 Sep 2022 07:40:57 GMT
+1 < Etag: W/"8f-bSpilbkjm1kFOSPHXBzgEw"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}
+
+01:40:57.286 status code was: 500, expected: 401, response time: 468, url: https://angular-conduit-node.herokuapp.com/api/profiles/username/follow, response: {"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}

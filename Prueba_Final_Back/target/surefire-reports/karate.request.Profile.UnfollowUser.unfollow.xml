@@ -1,0 +1,10 @@
+<testsuite failures="0" name="karate/request/Profile/UnfollowUser/unfollow.feature" skipped="0" tests="1" time="0.452854">
+  <testcase classname="karate.request.Profile.UnfollowUser.unfollow" name="Check the service DELETE method" time="0.452854">
+    <system-out>* url url ................................................................. passed
+* print token ............................................................. passed
+Given header Authorization = 'Bearer '+ token ............................. passed
+Given path 'profiles','username','follow' ................................. passed
+When method delete ........................................................ passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

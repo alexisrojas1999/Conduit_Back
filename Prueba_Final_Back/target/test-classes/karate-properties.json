@@ -1,0 +1,6 @@
+{
+  "dev": {
+  "url": "https://angular-conduit-node.herokuapp.com/api",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzNkZmM2Nzk1Y2M4MDAxNzA5MTc4NSIsInVzZXJuYW1lIjoiYWxleGlzIiwiZXhwIjoxNjY5NTI4NzkyLCJpYXQiOjE2NjQzNDQ3OTJ9.fxa5Qw3je1AyWg42pfpm_Hh2l43touy2PEMTocU9RLU",
+  }
+}

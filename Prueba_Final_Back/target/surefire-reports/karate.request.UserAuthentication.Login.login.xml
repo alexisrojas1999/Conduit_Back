@@ -1,0 +1,11 @@
+<testsuite failures="0" name="karate/request/UserAuthentication/Login/login.feature" skipped="0" tests="1" time="0.579802">
+  <testcase classname="karate.request.UserAuthentication.Login.login" name="Add a pet Using Post Method" time="0.579802">
+    <system-out>* url url ................................................................. passed
+* def requestBody = read('Karate/Request/UserAuthentication/Register/requestBody.json') . passed
+* def responsePost = read('Karate/Request/UserAuthentication/Register/responsePost.json') . passed
+Given path 'users','login' ................................................ passed
+And request requestBody ................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

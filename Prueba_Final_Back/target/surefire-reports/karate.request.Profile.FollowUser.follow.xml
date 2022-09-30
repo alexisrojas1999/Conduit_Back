@@ -1,0 +1,13 @@
+<testsuite failures="0" name="karate/request/Profile/FollowUser/follow.feature" skipped="0" tests="1" time="1.333315">
+  <testcase classname="karate.request.Profile.FollowUser.follow" name="Follow A user using POST" time="1.333315">
+    <system-out>* url url ................................................................. passed
+* def responseGet = read('Karate/Request/Profile/GetProfile/responseGet.json') . passed
+* def responsePost = read('Karate/Request/UserAuthentication/Register/responsePost.json') . passed
+* print token ............................................................. passed
+Given header Authorization = 'Bearer '+ token ............................. passed
+Given path 'profiles','username','follow' ................................. passed
+And request responseGet ................................................... passed
+When method POST .......................................................... passed
+Then status 500 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

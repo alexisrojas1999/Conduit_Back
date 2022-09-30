@@ -1,0 +1,118 @@
+16:05:55.778 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzNkZmM2Nzk1Y2M4MDAxNzA5MTc4NSIsInVzZXJuYW1lIjoiYWxleGlzIiwiZXhwIjoxNjY5NTI4NzkyLCJpYXQiOjE2NjQzNDQ3OTJ9.fxa5Qw3je1AyWg42pfpm_Hh2l43touy2PEMTocU9RLU
+16:05:56.333 request:
+1 > POST https://angular-conduit-node.herokuapp.com/api/profiles/username/follow
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzNkZmM2Nzk1Y2M4MDAxNzA5MTc4NSIsInVzZXJuYW1lIjoiYWxleGlzIiwiZXhwIjoxNjY5NTI4NzkyLCJpYXQiOjE2NjQzNDQ3OTJ9.fxa5Qw3je1AyWg42pfpm_Hh2l43touy2PEMTocU9RLU
+1 > Connection: Keep-Alive
+1 > Content-Length: 119
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+{"profile":{"username":"alexis","image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false}}
+
+16:05:57.100 response time in milliseconds: 765.60
+1 < 500
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 143
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 29 Sep 2022 22:05:56 GMT
+1 < Etag: W/"8f-bSpilbkjm1kFOSPHXBzgEw"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"errors":{"message":"Unknown modifier: $pushAll. Expected a valid update modifier or pipeline-style update specified as an array","error":{}}}
+
+16:05:57.180 request:
+1 > GET https://angular-conduit-node.herokuapp.com/api/profiles/username
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+
+16:05:57.611 response time in milliseconds: 430.44
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 121
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 29 Sep 2022 22:05:57 GMT
+1 < Etag: W/"79-CfKjUezwVHUhUZ+2HC4MPw"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"profile":{"username":"username","image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false}}
+
+16:05:57.625 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzNkZmM2Nzk1Y2M4MDAxNzA5MTc4NSIsInVzZXJuYW1lIjoiYWxleGlzIiwiZXhwIjoxNjY5NTI4NzkyLCJpYXQiOjE2NjQzNDQ3OTJ9.fxa5Qw3je1AyWg42pfpm_Hh2l43touy2PEMTocU9RLU
+16:05:57.627 request:
+1 > DELETE https://angular-conduit-node.herokuapp.com/api/profiles/username/follow
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzNkZmM2Nzk1Y2M4MDAxNzA5MTc4NSIsInVzZXJuYW1lIjoiYWxleGlzIiwiZXhwIjoxNjY5NTI4NzkyLCJpYXQiOjE2NjQzNDQ3OTJ9.fxa5Qw3je1AyWg42pfpm_Hh2l43touy2PEMTocU9RLU
+1 > Connection: Keep-Alive
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+
+16:05:58.078 response time in milliseconds: 450.07
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 121
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 29 Sep 2022 22:05:57 GMT
+1 < Etag: W/"79-CfKjUezwVHUhUZ+2HC4MPw"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"profile":{"username":"username","image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false}}
+
+16:05:58.126 request:
+1 > POST https://angular-conduit-node.herokuapp.com/api/users/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 91
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+{"user":{"email":"alexisro123@gmail.com","password":"fish121723","username":"alexisro991"}}
+
+16:05:58.684 response time in milliseconds: 557.51
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 282
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 29 Sep 2022 22:05:58 GMT
+1 < Etag: W/"11a-qcTxUeLSN46x4stWk+114A"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"username":"alexisro991","email":"alexisro123@gmail.com","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzYxNmJiNjk1YWU3MDAxNzM0ZjBmZCIsInVzZXJuYW1lIjoiYWxleGlzcm85OTEiLCJleHAiOjE2Njk2NzMxNTgsImlhdCI6MTY2NDQ4OTE1OH0.igBCJtyD7UXCtfRwNvxTLSdTxD8Xkh8O7K0Kt9IgTWQ"}}
+
+16:05:58.708 request:
+1 > POST https://angular-conduit-node.herokuapp.com/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 91
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: angular-conduit-node.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_333)
+{"user":{"email":"alexisro123@gmail.com","password":"fish121723","username":"alexisro991"}}
+
+16:05:59.220 response time in milliseconds: 512.40
+1 < 422
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 71
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 29 Sep 2022 22:05:58 GMT
+1 < Etag: W/"47-y9P+uj5JItUO5NTxYErRXQ"
+1 < Server: Cowboy
+1 < Vary: X-HTTP-Method-Override
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"errors":{"email":"is already taken.","username":"is already taken."}}
+
+16:05:59.222 status code was: 422, expected: 200, response time: 512, url: https://angular-conduit-node.herokuapp.com/api/users, response: {"errors":{"email":"is already taken.","username":"is already taken."}}
+ already taken."}}

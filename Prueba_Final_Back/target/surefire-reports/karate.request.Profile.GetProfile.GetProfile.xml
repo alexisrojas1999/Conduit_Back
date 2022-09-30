@@ -1,0 +1,8 @@
+<testsuite failures="0" name="karate/request/Profile/GetProfile/GetProfile.feature" skipped="0" tests="1" time="0.433374">
+  <testcase classname="karate.request.Profile.GetProfile.GetProfile" name="Check the service GET method" time="0.433374">
+    <system-out>* url url ................................................................. passed
+Given path 'profiles','username' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
